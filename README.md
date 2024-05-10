@@ -1,31 +1,10 @@
-# Greenfield: Safe-Tree Application
+# safetree
 
-![Safe-Tree-Logo](client/style/logo.png)
+### What App is
 
-### SafeTree
-
-> SafeTree is a play on the word 'safety' for user's that enjoy the outdoors!
-
-### Features
-
-<li>View hiking opportunities
-<li>Identify harmful/helpful plants
-<li>Identify local animals
-<li>Share experiences!
+### What some features are
 
 ### What frameworks/libraries are used
-
-#### Tech Stack
-
-<ins>_**Client:**_</ins> -> React (Hooks) & Axios\
-<ins>
-_**Server:**_</ins> -> Express\
-<ins>
-_**Database:**_ </ins>-> Mysql/Sequelize\
-<ins>
-_**Authentication:**_</ins> -> Passport (Google Strategy)\
-<ins>
-_**Style:**_ </ins>-> Material UI
 
 ### What software is required to run
 
@@ -89,27 +68,6 @@ _**Style:**_ </ins>-> Material UI
 
 ### What commands to use to Start
 
-1: **Start MySql** server/service\
-<ins>MAC - Homebrew</ins>\
-mysql.server start
+> Ex: npm start, mysql.server start, etc
 
-<ins>Windows/WSL</ins>\
-sudo service mysql start
-
-2: **npm start**: Start the server utilizing _Nodemon_ (1 terminal sustained)
-
-3: **npm run build**: Start the transpiling & bundling process and continuously runs while developing until stopped. (1 Terminal sustained)
-
-4: **mysql -uroot** -> **create database safetree**: Create a local _safetree_ database to store data.
-
-5: **npm run seed**: Create fake data to test operations throughout the development process.
-
-6: **Restart server** so the database can accept the seed data
-
-### Closing
-
-> We would like to continue working on what we have initially created in order to learn more and grow experiences!
-
-### Authors & acknowledgements:
-
-`Operation Spark instructors` & `Cody D. Allyn M. Mike S. Darius C. Rodman L.`
+### Have documentation
